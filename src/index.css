@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1, h2 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Температура крупным шрифтом */
+.text-6xl {
+  font-size: 4rem;
+}
+
+/* Описание погоды */
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Карточки прогноза */
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
